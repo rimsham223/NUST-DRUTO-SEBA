@@ -1,0 +1,135 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.header{
+    -fx-background-color:transparent;
+
+}
+
+.nav-form{
+    -fx-background-color:linear-gradient(to bottom right,#efbad3,#a254f2);
+
+}
+.nav-btn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: #000;
+    -fx-border-color:#000;
+    -fx-border-width:.4px;
+    -fx-text-size: 14px;
+}
+
+.nav-btn:hover{
+    -fx-background-color: #000;
+    -fx-text-fill: #fff;
+    -fx-text-size: 14px;
+}
+
+.logout-btn{
+    -fx-background-color: #dcbae4;
+    -fx-padding: 5px;
+    -fx-cursor:hand;
+    -fx-background-radius: 50px;
+}
+
+.logout-btn:hover{
+    -fx-background-color: #a254f2;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0);
+}
+.white-bg{
+    -fx-background-color: #fff;
+}
+.radius{
+    -fx-background-radius: 8px;
+}
+
+.transparent{
+    -fx-background-color:transparent;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    -fx-padding:0;
+    -fx-border-color: #a254f2;
+    -fx-border-radius: 5px;
+    -fx-border-width: 1.5px;
+}
+
+.table-view  .column-header-background {
+    -fx-background-color: #dabfde;
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-background-insets:0 0 0 0 ;
+
+}
+
+.table-view .column-header, .filter{
+    -fx-background-color:transparent;
+    -fx-size:40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #000;
+
+}
+
+.btn{
+    -fx-background-color: #baa1cc;
+    -fx-text-fill: #000;
+    -fx-cursor:hand;
+    -fx-font-size: 14px;
+}
+.btn:hover{
+    -fx-background-color: #efbad3;
+}
+
+.combobox {
+    -fx-background-color: #fff, #efbad3;
+    -fx-background-insets: 0, 1;
+    -fx-padding: 0.5em;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #fff;
+    -fx-border-color: #a254f2;
+    -fx-border-width: 0.5px;
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 5px ;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #dcbae4;
+}
+
+.textfield{
+    -fx-background-color: transparent;
+    -fx-border-color:#a254f2;
+    -fx-border-width: .5px;
+}
+.textfield:focused{
+    -fx-border-width:1px;
+}
+
+.pay-btn{
+    -fx-background-color: #efbad3;
+    -fx-cursor: hand;
+    -fx-text-fill: #000;
+    -fx-font-size:14px;
+}
+.pay-btn:hover{
+    -fx-background-color: #dabfde;
+}
+
+.receipt-btn{
+    -fx-background-color: #dabfde;
+    -fx-cursor: hand;
+    -fx-text-fill: #000;
+    -fx-font-size:14px;
+}
+.receipt-btn:hover{
+    -fx-background-color: #efbad3;
+}

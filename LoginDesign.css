@@ -1,0 +1,74 @@
+.gradient{
+    -fx-background-color:linear-gradient(to bottom right,#efbad3,#a254f2);
+}
+.white-form{
+    -fx-background-color: #fff;
+}
+.head-label{
+    -fx-border-color: #a254f2;
+    -fx-border-width: 0 0 0 4px;
+    -fx-padding: 0 0 0 3px;
+}
+.login-btn{
+    -fx-background-color: #824eae;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+}
+.login-btn:hover{
+    -fx-background-color: #000;
+}
+.textfield{
+    -fx-background-color: transparent;
+    -fx-border-color:#a254f2;
+    -fx-border-width: .5px;
+}
+.textfield:focused{
+    -fx-border-width:1px;
+}
+.create-btn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: #000;
+    -fx-border-color:#000;
+    -fx-border-width:1px;
+}
+
+.create-btn:focused{
+    -fx-background-color: #a254f2;
+    -fx-text-fill:#000000;
+    
+}
+.create-btn:hover{
+    -fx-background-color: #dcbae4;
+}
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: #000;
+    -fx-font-size:14px;
+}
+.close:hover{
+    -fx-background-color: #ff0033;
+}
+.combobox {
+    -fx-background-color: #fff, linear-gradient(to bottom right, #efbad3, #a254f2);
+    -fx-background-insets: 0, 1;
+    -fx-padding: 0.5em; 
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #fff; 
+    -fx-border-color: #a254f2;
+    -fx-border-width: 0.5px; 
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: transparent; 
+    -fx-padding: 5px ;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #dcbae4; 
+}
+

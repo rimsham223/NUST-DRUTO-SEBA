@@ -1,0 +1,23 @@
+.card{
+    -fx-background-color : #fff;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 2,0,0,0);
+}
+.btn{
+    -fx-background-color: #fff, linear-gradient(to bottom right, #efbad3, #a254f2);
+    -fx-cursor: hand;
+    -fx-text-fill: #000;
+    -fx-font-size:12px;
+}
+.btn:hover{
+   -fx-background-color: #000; 
+   -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+}
+.spinner{
+    -fx-background-color: transparent;
+    -fx-border-color:#a254f2;
+    -fx-border-width: .5px;
+}

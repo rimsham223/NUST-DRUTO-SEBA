@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nds.pkg2.FeedbackController">
+   <children>
+      <AnchorPane prefHeight="431.0" prefWidth="601.0">
+         <children>
+            <AnchorPane prefHeight="458.0" prefWidth="204.0" styleClass="gradient" stylesheets="@feedback.css">
+               <children>
+                  <ImageView fx:id="logo_fdbf" fitHeight="189.0" fitWidth="273.0" layoutX="7.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="58.0" layoutY="300.0" prefHeight="25.0" prefWidth="88.0" text="THANKYOU">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="12.0" layoutY="336.0" prefHeight="19.0" prefWidth="179.0" text="Hope to see you again!">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="200.0" prefHeight="458.0" prefWidth="401.0" styleClass="white-form" stylesheets="@feedback.css">
+               <children>
+                  <Label layoutX="117.0" layoutY="24.0" prefHeight="31.0" prefWidth="165.0" text="FEEDBACK SURVEY">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="77.0" text="Username: ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="131.0" prefHeight="17.0" prefWidth="66.0" text="Age Group:">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="45.0" layoutY="191.0" text="Rating: ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="237.0" prefHeight="19.0" prefWidth="65.0" text="Feedback:">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fdbf_username" layoutX="104.0" layoutY="73.0" prefHeight="37.0" prefWidth="262.0" promptText="Username" styleClass="textfield" stylesheets="@feedback.css" />
+                  <TextField fx:id="fdbf_feedback" alignment="TOP_LEFT" layoutX="109.0" layoutY="237.0" prefHeight="141.0" prefWidth="262.0" promptText="Type....." styleClass="textfield" stylesheets="@feedback.css" />
+                  <ComboBox fx:id="fdbf_agegroup" layoutX="109.0" layoutY="128.0" onAction="#agelist" prefHeight="19.0" prefWidth="262.0" promptText="Choose Age Group" styleClass="combobox" stylesheets="@feedback.css" />
+                  <Button fx:id="submibtn" layoutX="150.0" layoutY="403.0" mnemonicParsing="false" onAction="#submibtn" prefHeight="43.0" prefWidth="165.0" styleClass="submit-btn" stylesheets="@feedback.css" text="Submit">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Slider fx:id="ratingslider" layoutX="113.0" layoutY="184.0" majorTickUnit="1.0" max="5.0" min="1.0" prefHeight="14.0" prefWidth="255.0" showTickLabels="true" snapToTicks="true" value="3.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,132 @@
+.gradient{
+    -fx-background-color:linear-gradient(to bottom right,#efbad3,#a254f2);
+    
+}
+
+.white-form{
+    
+        -fx-background-color:#fff;
+        
+
+}
+
+.textfield{
+        -fx-background-color:transparent;
+        -fx-border-color:#a254f2;
+        -fx-border-width:.5px;
+        
+
+   
+}
+.textfield:hover{
+      -fx-border-width:1px;
+    
+}
+
+.submit-btn{
+    -fx-background-color: #dcbae4;
+    -fx-cursor: hand;
+    -fx-text-fill: #000;
+    -fx-font-size:14px;
+}
+.submit-btn:hover{
+    -fx-background-color: #000;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+}
+
+.combobox{
+    
+        -fx-background-color:linear-gradient(to bottom right,#efbad3,#a254f2);
+-fx-background-insects:0,1;
+-fx-padding:0.5em;
+
+    
+    
+}
+
+.combo-box-popup.list-view{
+    
+            -fx-background-color:#fff;
+
+-fx-border-color:#a254f2;
+        -fx-border-width:.5px;
+
+
+            
+}
+
+
+.combo-box-popup.list-cell{
+    
+       -fx-background-color:transparent;
+-fx-padding:5px;
+
+}
+
+.combo-box-popup.list-cell:hover{
+           -fx-background-color:#dcbae4;
+
+    
+    
+}
+.gradient{
+    -fx-background-color:linear-gradient(to bottom right,#efbad3,#a254f2);
+    
+}
+
+.white-form{
+    
+        -fx-background-color:#fff;
+        
+
+}
+
+.textfield{
+        -fx-background-color:transparent;
+        -fx-border-color:#a254f2;
+        -fx-border-width:.5px;
+        
+
+   
+}
+.textfield:hover{
+      -fx-border-width:1px;
+    
+}
+
+.combobox{
+    
+        -fx-background-color:linear-gradient(to bottom right,#efbad3,#a254f2);
+-fx-background-insects:0,1;
+-fx-padding:0.5em;
+
+    
+    
+}
+
+.combo-box-popup.list-view{
+    
+            -fx-background-color:#fff;
+
+-fx-border-color:#a254f2;
+        -fx-border-width:.5px;
+
+
+            
+}
+
+
+.combo-box-popup.list-cell{
+    
+       -fx-background-color:transparent;
+-fx-padding:5px;
+
+}
+
+.combo-box-popup.list-cell:hover{
+           -fx-background-color:#dcbae4;
+
+    
+    
+}
